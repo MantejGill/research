@@ -19,7 +19,7 @@ const StyledProjectsGrid = styled.ul`
 const StyledProject = styled.li`
   position: relative;
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 100px;
   grid-template-columns: repeat(12, 1fr);
   align-items: center;
 
@@ -314,6 +314,7 @@ const Featured = () => {
           node {
             frontmatter {
               title
+              overline
               cover {
                 childImageSharp {
                   gatsbyImageData(width: 700, placeholder: BLURRED, formats: [AUTO, WEBP, AVIF])
@@ -348,21 +349,21 @@ const Featured = () => {
   return (
     <section id="projects">
       <h2 className="numbered-heading" ref={revealTitle}>
-        Some Things I’ve Built
+        Patent Inventions
       </h2>
 
       <StyledProjectsGrid>
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover, cta } = frontmatter;
+            const { external, title, overline, tech, github, cover, cta } = frontmatter;
             const image = getImage(cover);
 
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
                 <div className="project-content">
                   <div>
-                    <p className="project-overline">Featured Project</p>
+                    <p className="project-overline">{overline}</p>
 
                     <h3 className="project-title">
                       <a href={external}>{title}</a>
@@ -385,11 +386,6 @@ const Featured = () => {
                       {cta && (
                         <a href={cta} aria-label="Course Link" className="cta">
                           Learn More
-                        </a>
-                      )}
-                      {github && (
-                        <a href={github} aria-label="GitHub Link">
-                          <Icon name="GitHub" />
                         </a>
                       )}
                       {external && !cta && (

@@ -125,8 +125,6 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
-
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
       <h2 className="numbered-heading">About Me</h2>
@@ -135,38 +133,135 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              I work as a senior R&D Engineer at{' '}
+              <a href="https://www.hpe.com/us/en/home.html">Hewlett Packard Enterprise</a>. I work
+              in the <a href="https://www.hpe.com/in/en/solutions/infosight.html">HPE Infosight</a>{' '}
+              AIOps team as a Data Science researcher and an ML Engineer.
+            </p>
+            <p>
+              I work with time-series data generated from the server and its peripherals (CPU,
+              Power, Memory, I/O) and actively research the following themes :
+              <ul className="skills-list">
+                <li>
+                  Forecasting of time series – For Reliable and Explainable Predictions (Univariate,
+                  Multivariate, Ensembles)
+                </li>
+                <li>
+                  Time-series Data and Model compression - For Cost-Effective Storage and increasing
+                  data privacy
+                </li>
+                <li>Time-series Segmentation - For increasing Interpretability and Transparency</li>
+              </ul>
+            </p>
+            <p>
+              Currently, I am working in collaboration with{' '}
+              <a href="https://www.hpe.com/us/en/hewlett-packard-labs.html">
+                Hewlett Packard Labs{' '}
+              </a>{' '}
+              under the mentorship of{' '}
+              <a href="https://www.linkedin.com/in/suparna-bhattacharya-5a7798b/?originalSubdomain=in">
+                Dr Suparna Bhattacharya
+              </a>{' '}
+              on creating data-centric algorithms for time-series datasets.
+            </p>
+            <p>
+              I am also curating an extensive guide-style literature survey to increase the
+              Trustworthiness of Machine learning pipelines using data-centric methods.
             </p>
 
             <p>
+              {' '}
+              I have eight <a href="/#projects">patent inventions</a>:
+              <ul className="skills-list">
+                <li>Unsupervised segmentation of time series using motifs and shapelets</li>
+                <li>Compression of a univariate time-series dataset using motifs</li>
+                <li>A data centric approach towards server time series model compression</li>
+                <li>An improved forecasting algorithm for Power and CPU data of a server</li>
+                <li>
+                  Improved ensemble forecasting algorithm using time-series data sampled at multiple
+                  intervals
+                </li>
+                <li>
+                  Identifying hotspots and coldspots in forecasted power consumption data in an IT
+                  data center for workload scheduling
+                </li>
+                <li>An analytical method to improve the life of an SSD drive in a server</li>
+                <li>Maintenance time window prediction</li>
+              </ul>
+            </p>
+            <p>
+              I actively <a href="/#mentorship">mentor</a> undergraduate college students and assist
+              them with their academic research. Additionally, we have completed two research
+              papers, and we are currently in the process of publishing them.
+              <ul className="skills-list">
+                <li>
+                  Evaluating the Vulnerabilities in ML systems in terms of adversarial attacks
+                </li>
+                <li>Unsupervised learning approach for grouping trajectories</li>
+              </ul>
+            </p>
+
+            {/* <p> Hello! I am an experienced researcher and a software engineer with experience in Python, 
+              Data Science, Android Application Development, Augmented Reality, Virtual Reality &amp; Internet of things. 
+            </p>
+             */}
+            {/* <p>
+            I work as a senior R&D Engineer at {' '}<a href="https://www.hpe.com/us/en/home.html">Hewlett Packard Enterprise</a>. 
+            My current role is of a Data Science researcher and an ML Engineer. 
+            I work in the {' '}<a href="https://www.hpe.com/in/en/solutions/infosight.html">HPE Infosight AIOps</a> team, where I :
+            <ul>
+            <li>Create machine learning models for various server-related use cases:
+            <ul className="skills-list"> 
+              <li>Recommending customized Customer advisory alerts to HPE server customers</li>
+              <li>Predicting maintenance time for Firmware updates on HPE Servers</li>
+              <li>Workload scheduling using forecasted power supply data of a server</li>
+            </ul>
+            </li>
+            <li>Setup end-to-end workflow of ML life cycle using frameworks like MLFlow and Kubeflow</li>
+            <li>Create secure data flow pipelines to collect data from servers residing in customer data-centres</li>
+            <li>Create and maintain systems to efficiently store and process big data</li>
+            <li>Develop scripts and software to clean, transform and analyze server data</li>
+            </ul>
+            </p> */}
+
+            {/* <p>
+            I am currently working on exploring time-series data generated from a server(CPU, Power, Memory data) and 
+            actively researching the following themes :
+            <ul className="skills-list">
+              <li>Forecasting of time series – For Reliable Predictions (Univariate, Multivariate, Ensembles)</li>
+              <li>Time-series Data and Model compression - For Cost-Effective Storage</li>
+              <li>Time-series Segmentation - For Interpretable Models</li>
+            </ul>
+
+I am contributing and working towards advanced research on these, with ambitious goals towards enhancing AIOPS for products and HPE solutions, patents and external journal publishing. 
+            </p> */}
+
+            {/* <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
+              <a href="https://www.hpe.com/in/en/solutions/infosight.html">an advertising agency</a>,{' '}
               <a href="https://starry.com/">a start-up</a>,{' '}
               <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
               <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
               main focus these days is building accessible, inclusive products and digital
               experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
               clients.
-            </p>
+            </p> */}
 
-            <p>
+            {/* <p>
               I also recently{' '}
               <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
                 launched a course
               </a>{' '}
               that covers everything you need to build a web app with the Spotify API using Node
               &amp; React.
-            </p>
+            </p> */}
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            {/* <p>Here are a few technologies I’ve been working with recently:</p> */}
           </div>
 
-          <ul className="skills-list">
+          {/* <ul className="skills-list">
             {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
-          </ul>
+          </ul> */}
         </StyledText>
 
         <StyledPic>
