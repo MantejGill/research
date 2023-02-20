@@ -2,7 +2,7 @@
 date: '01-01-2017'
 title: 'NASA Space App Challenge: Dream Space Simulator'
 github: ''
-external: 'http://m.indiatimes.com/news/india/5-indian-students-build-space-simulator-bag-second-position-at-nasa-s-space-app-challenge-325248.html'
+external: 'https://2017.spaceappschallenge.org/challenges/ideate-and-create/space-jockey/teams/kepler'
 tech:
   - Virtual Reality
   - Android

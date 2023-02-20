@@ -12,4 +12,4 @@ tech:
   - Representation of time series
 ---
 
-A novel solution to compress a univariate stationary time series dataset. This approach involves: finding common patterns (motifs) across a dataset to represent different subsequences of the time series dataset and then storing these representational patterns, along with their meta-data, as a compressed time-series dataset. The authors perform a comparative study with the different rates of compression achieved by the algorithm and its effects on the final model accuracy and note an accuracy reduction of 0.01% in MAPE with 30% compression saving; and a reduction of 0.1% when the compression saving was 90%.
+The solution presented compresses a univariate stationary time series dataset by finding common patterns (motifs) across the dataset and storing them, along with metadata, as a compressed time-series dataset. The authors performed a study that showed a reduction in model accuracy of 0.01% in MAPE with 30% compression saving and 0.1% with 90% compression saving. The approach aims to provide significant compression while maintaining model accuracy, making it useful for storage and analysis of large datasets.
