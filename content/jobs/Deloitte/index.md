@@ -1,8 +1,9 @@
 ---
 date: '2016-06-01'
-title: 'Summer Intern'
+title: 'Forensic Analysis Intern'
 company: 'Deloitte'
 location: 'Gurgaon, India'
+year: '2016'
 range: 'June - Aug 2016'
 url: 'https://www2.deloitte.com/in/en/pages/finance/topics/forensic.html'
 ---

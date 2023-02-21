@@ -7,7 +7,7 @@ import { srConfig } from '@config';
 import { Icon } from '@components/icons';
 import { usePrefersReducedMotion } from '@hooks';
 
-const StyledProjectsGrid = styled.ul`
+const StyledMentorshipsGrid = styled.ul`
   ${({ theme }) => theme.mixins.resetList};
 
   a {
@@ -16,7 +16,7 @@ const StyledProjectsGrid = styled.ul`
   }
 `;
 
-const StyledProject = styled.li`
+const StyledMentorship = styled.li`
   position: relative;
   display: grid;
   grid-gap: 10px;
@@ -35,7 +35,7 @@ const StyledProject = styled.li`
     }
   }
   &:nth-of-type(odd) {
-    .project-content {
+    .mentorship-content {
       grid-column: 7 / -1;
       text-align: right;
       @media (max-width: 1080px) {
@@ -50,7 +50,7 @@ const StyledProject = styled.li`
         padding: 25px 25px 20px;
       }
     }
-    .project-tech-list {
+    .mentorship-tech-list {
       justify-content: flex-end;
       @media (max-width: 768px) {
         justify-content: flex-start;
@@ -62,7 +62,7 @@ const StyledProject = styled.li`
         }
       }
     }
-    .project-links {
+    .mentorship-links {
       justify-content: flex-end;
       margin-left: 0;
       margin-right: -10px;
@@ -72,14 +72,14 @@ const StyledProject = styled.li`
         margin-right: 0;
       }
     }
-    .project-image {
+    .mentorship-image {
       grid-column: 1 / 8;
       @media (max-width: 768px) {
         grid-column: 1 / -1;
       }
     }
   }
-  .project-content {
+  .mentorship-content {
     position: relative;
     grid-column: 1 / 7;
     grid-row: 1 / -1;
@@ -99,14 +99,14 @@ const StyledProject = styled.li`
       padding: 30px 25px 20px;
     }
   }
-  .project-overline {
+  .mentorship-overline {
     margin: 10px 0;
     color: var(--green);
     font-family: var(--font-mono);
     font-size: var(--fz-xs);
     font-weight: 400;
   }
-  .project-title {
+  .mentorship-title {
     color: var(--lightest-slate);
     font-size: clamp(24px, 5vw, 28px);
     @media (min-width: 768px) {
@@ -129,7 +129,7 @@ const StyledProject = styled.li`
       }
     }
   }
-  .project-description {
+  .mentorship-description {
     ${({ theme }) => theme.mixins.boxShadow};
     position: relative;
     z-index: 2;
@@ -154,7 +154,7 @@ const StyledProject = styled.li`
       font-weight: normal;
     }
   }
-  .project-tech-list {
+  .mentorship-tech-list {
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -177,7 +177,7 @@ const StyledProject = styled.li`
       }
     }
   }
-  .project-links {
+  .mentorship-links {
     display: flex;
     align-items: center;
     position: relative;
@@ -204,7 +204,7 @@ const StyledProject = styled.li`
       margin: 10px;
     }
   }
-  .project-image {
+  .mentorship-image {
     ${({ theme }) => theme.mixins.boxShadow};
     grid-column: 6 / -1;
     grid-row: 1 / -1;
@@ -289,9 +289,9 @@ const Mentorship = () => {
     }
   `);
 
-  const mentorshipProjects = data.mentorship.edges.filter(({ node }) => node);
+  const mentorshipMentorships = data.mentorship.edges.filter(({ node }) => node);
   const revealTitle = useRef(null);
-  const revealProjects = useRef([]);
+  const revealMentorships = useRef([]);
   const prefersReducedMotion = usePrefersReducedMotion();
 
   useEffect(() => {
@@ -300,46 +300,46 @@ const Mentorship = () => {
     }
 
     sr.reveal(revealTitle.current, srConfig());
-    revealProjects.current.forEach((ref, i) => sr.reveal(ref, srConfig(i * 100)));
+    revealMentorships.current.forEach((ref, i) => sr.reveal(ref, srConfig(i * 100)));
   }, []);
 
   return (
-    <section id="projects">
+    <section id="mentorships">
       <h2 className="numbered-heading" ref={revealTitle}>
         Research mentorship
       </h2>
 
-      <StyledProjectsGrid>
-        {mentorshipProjects &&
-          mentorshipProjects.map(({ node }, i) => {
+      <StyledMentorshipsGrid>
+        {mentorshipMentorships &&
+          mentorshipMentorships.map(({ node }, i) => {
             const { frontmatter, html } = node;
             const { external, title, overline, tech, github, cover, cta } = frontmatter;
             const image = getImage(cover);
 
             return (
-              <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
-                <div className="project-content">
+              <StyledMentorship key={i} ref={el => (revealMentorships.current[i] = el)}>
+                <div className="mentorship-content">
                   <div>
-                    <p className="project-overline">{overline}</p>
+                    <p className="mentorship-overline">{overline}</p>
 
-                    <h3 className="project-title">
+                    <h3 className="mentorship-title">
                       <a href={external}>{title}</a>
                     </h3>
 
                     <div
-                      className="project-description"
+                      className="mentorship-description"
                       dangerouslySetInnerHTML={{ __html: html }}
                     />
 
                     {tech.length && (
-                      <ul className="project-tech-list">
+                      <ul className="mentorship-tech-list">
                         {tech.map((tech, i) => (
                           <li key={i}>{tech}</li>
                         ))}
                       </ul>
                     )}
 
-                    <div className="project-links">
+                    <div className="mentorship-links">
                       {cta && (
                         <a href={cta} aria-label="Course Link" className="cta">
                           Learn More
@@ -354,15 +354,15 @@ const Mentorship = () => {
                   </div>
                 </div>
 
-                <div className="project-image">
+                <div className="mentorship-image">
                   <a href={external ? external : github ? github : '#'}>
                     <GatsbyImage image={image} alt={title} className="img" />
                   </a>
                 </div>
-              </StyledProject>
+              </StyledMentorship>
             );
           })}
-      </StyledProjectsGrid>
+      </StyledMentorshipsGrid>
     </section>
   );
 };

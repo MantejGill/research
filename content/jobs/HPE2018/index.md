@@ -1,9 +1,10 @@
 ---
 date: '2018-01-1'
-title: 'Project Intern'
+title: 'Data Science Intern'
 company: 'HPE R&D'
 location: 'Bangalore, India'
-range: 'Jan - May 2018'
+year: '2018'
+range: 'Jan 2018 - May 2018'
 url: 'https://www.hpe.com/in/en/home.html'
 ---
 

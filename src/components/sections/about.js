@@ -20,11 +20,6 @@ const StyledAboutSection = styled.section`
 `;
 const StyledText = styled.div`
   ul.skills-list {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(140px, 200px));
-    grid-gap: 0 10px;
-    padding: 0;
-    margin: 20px 0 0 0;
     overflow: hidden;
     list-style: none;
 
@@ -133,14 +128,15 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I work as a senior R&D Engineer at{' '}
-              <a href="https://www.hpe.com/us/en/home.html">Hewlett Packard Enterprise</a>. I work
-              in the <a href="https://www.hpe.com/in/en/solutions/infosight.html">HPE Infosight</a>{' '}
-              AIOps team as a Data Science researcher and an ML Engineer.
+              I am a senior R&D Engineer at{' '}
+              <a href="https://www.hpe.com/us/en/home.html">Hewlett Packard Enterprise</a> in the{' '}
+              <a href="https://www.hpe.com/in/en/solutions/infosight.html">HPE Infosight</a> AIOps
+              team.
             </p>
             <p>
-              I work with time-series data generated from the server and its peripherals (CPU,
-              Power, Memory, I/O) and actively research the following themes :
+              My work involves being a Data Science researcher and an Machine Learning engineer. I
+              work with time-series data generated from servers and peripherals such as CPU, Power,
+              Memory, and I/O and actively research the following themes :
               <ul className="skills-list">
                 <li>
                   Forecasting of time series – For Reliable and Explainable Predictions (Univariate,
