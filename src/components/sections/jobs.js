@@ -264,7 +264,7 @@ const Jobs = () => {
                   aria-selected={activeTabId === i ? true : false}
                   aria-controls={`panel-${i}`}>
                   <span>
-                    {company} ({year})
+                    {company}({year})
                   </span>
                 </StyledTabButton>
               );
