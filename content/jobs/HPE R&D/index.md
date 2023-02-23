@@ -8,8 +8,7 @@ range: 'May 2021 - Present'
 url: 'https://www.hpe.com/in/en/home.html'
 ---
 
-My current role is of a Data Science researcher and an ML Engineer.
-I work in the <a href="https://www.hpe.com/in/en/solutions/infosight.html">HPE Infosight AIOps</a> team, where I :
+I work in the <a href="https://www.hpe.com/in/en/solutions/infosight.html">HPE Infosight AIOps</a> team as a Data Science researcher and an ML Engineer.
 
 <ul>
 <li>Data Science use-cases:

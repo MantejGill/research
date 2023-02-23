@@ -60,9 +60,8 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        My inbox is open for collaboration on further research involving data-centric methods.
-        Whether you want to ask a question or simply exchange greetings, I'll make every effort to
-        respond promptly.
+        I'm available to collaborate on data-centric AI research, so feel free to contact me. If you
+        have a question or want to say hello, I'll do my best to reply as quickly as possible.
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>

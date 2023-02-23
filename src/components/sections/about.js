@@ -27,8 +27,8 @@ const StyledText = styled.div`
       position: relative;
       margin-bottom: 10px;
       padding-left: 20px;
-      font-family: var(--font-mono);
-      font-size: var(--fz-xs);
+      font-family: var(--font-sans);
+      font-size: var(--fz-lg);
 
       &:before {
         content: '▹';
@@ -187,8 +187,8 @@ const About = () => {
             </p>
             <p>
               I actively <a href="/#mentorship">mentor</a> undergraduate college students and assist
-              them with their academic research. Additionally, we have completed two research
-              papers, and we are currently in the process of publishing them.
+              them with their academic research. Under my guidance, we have completed two research
+              papers and are currently in the process of publishing them.
               <ul className="skills-list">
                 <li>
                   Evaluating the Vulnerabilities in ML systems in terms of adversarial attacks
