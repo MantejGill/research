@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Mantej Singh Gill',
     description:
-      'Mantej Singh Gill is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
+      'Mantej Singh Gill is an AI researcher whose area of expertise lies in time-series analysis. His primary focus is developing innovative data-centric algorithms that can improve the reliability of machine-learning pipelines. Through his work, he strives to create cutting-edge solutions to benefit society and positively impact the world.',
     siteUrl: 'https://www.mantejgill.com', // No trailing slash allowed!
     image: '/demo.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '',
