@@ -3,7 +3,7 @@ date: '3'
 title: 'Identifying hotspots and coldspots in forecasted power consumption data in an IT data center for workload scheduling'
 overline: 'Patent Application Number: 17/862,989'
 cover: './workload_scheduling.png'
-external: 'https://drive.google.com/file/d/18aEQPLHnlgvAlijgEl4vPdpIJz1zpFc1/view?usp=sharing'
+external: 'https://drive.google.com/file/d/1q908VIG9_mhyfUklhzcRgeciOhl8pwZl/view?usp=sharing'
 tech:
   - Data Centric AI
   - Time series

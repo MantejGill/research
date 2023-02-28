@@ -3,7 +3,7 @@ date: '4'
 title: 'Maintenance time window prediction'
 overline: 'Patent Application Number: 18/146,096'
 cover: './firmware_pred.png'
-external: 'https://drive.google.com/file/d/1U6k0Gz2TjM-qBosDpU1pO4C7bv33xGD_/view?usp=sharing'
+external: 'https://drive.google.com/file/d/1q908VIG9_mhyfUklhzcRgeciOhl8pwZl/view?usp=sharing'
 tech:
   - Ensemble Modelling
 ---

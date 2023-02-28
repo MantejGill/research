@@ -3,7 +3,7 @@ date: '7'
 title: 'A data centric approach towards server time series model compression'
 overline: 'Patent Filing In Progress'
 cover: './representative_time_series.png'
-external: 'https://drive.google.com/file/d/1cr6Xczzc7oUeQI0x78ygbs2zpFm2hw5d/view?usp=sharing'
+external: 'https://drive.google.com/file/d/1q908VIG9_mhyfUklhzcRgeciOhl8pwZl/view?usp=sharing'
 tech:
   - Data Centric AI
   - Time Series

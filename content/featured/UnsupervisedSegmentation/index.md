@@ -3,7 +3,7 @@ date: '1'
 title: 'Unsupervised segmentation of time series using motifs and shapelets'
 overline: 'Patent Application Number: 17/991,550'
 cover: './motifs.png'
-external: 'https://drive.google.com/file/d/1XeQXmp_lq832MX0xqD6q5H7DrkKca3-O/view?usp=sharing'
+external: 'https://drive.google.com/file/d/1q908VIG9_mhyfUklhzcRgeciOhl8pwZl/view?usp=sharing'
 tech:
   - Data centric AI
   - Motifs, Shapelets and Anomalies
