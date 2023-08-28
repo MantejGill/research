@@ -3,7 +3,7 @@ date: '1'
 title: 'Evaluating the Vulnerabilities in ML systems in terms of adversarial attacks'
 overline: ''
 cover: './certificate.png'
-external: 'https://drive.google.com/file/d/1rAsJ0Iyt0FZpgUZtCCMcOi5SIdCaOs1p/view?usp=sharing'
+external: 'https://arxiv.org/abs/2308.12918v1'
 cta: ''
 tech:
   - Adversarial Attacks

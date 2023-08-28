@@ -3,7 +3,7 @@ date: '2'
 title: 'Unsupervised learning approach for grouping trajectories'
 overline: ''
 cover: './screenshot_paper.png'
-external: 'https://drive.google.com/file/d/1KPiYggGytkE-bHYYwyp63WEfrcoqbrzB/view?usp=sharing'
+external: 'https://ssrn.com/abstract=4551038'
 tech:
   - Unsupervised
   - Clustering

@@ -191,9 +191,15 @@ const About = () => {
               papers and are currently in the process of publishing them.
               <ul className="skills-list">
                 <li>
-                  Evaluating the Vulnerabilities in ML systems in terms of adversarial attacks
+                  <a href="https://arxiv.org/abs/2308.12918v1">
+                    Evaluating the Vulnerabilities in ML systems in terms of adversarial attacks
+                  </a>
                 </li>
-                <li>Unsupervised learning approach for grouping trajectories</li>
+                <li>
+                  <a href="https://ssrn.com/abstract=4551038">
+                    Unsupervised learning approach for grouping trajectories
+                  </a>
+                </li>
               </ul>
             </p>
 
