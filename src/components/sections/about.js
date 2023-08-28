@@ -161,12 +161,9 @@ const About = () => {
                 Dr Suparna Bhattacharya.
               </a>{' '}
               Our joint efforts are channeled towards the development of data-centric algorithms
-              tailored for time-series datasets.
-            </p>
-            <p>
-              Additionally, I'm in the midst of curating a comprehensive literature survey, which
-              aims to bolster the trustworthiness of Machine Learning pipelines using data-centric
-              methodologies.
+              tailored for time-series datasets. Additionally, I'm in the midst of curating a
+              comprehensive literature survey, which aims to bolster the trustworthiness of Machine
+              Learning pipelines using data-centric methodologies.
             </p>
 
             <p>
@@ -200,14 +197,14 @@ const About = () => {
                   data center for workload scheduling
                 </li>
                 <li>An analytical method to improve the life of an SSD drive in a server</li>
-                <li>Maintenance time window prediction</li>
+                <li>Server's maintenance time window prediction</li>
               </ul>
             </p>
             <p>
               Beyond my research and inventions, I'm deeply committed to nurturing budding talent. I
               actively <a href="/#mentorship">mentor</a> undergraduate students, guiding them
               through their academic research journeys. Under my tutelage, we've successfully
-              completed two research papers, both of which are in the publication pipeline.
+              completed two research papers, both of which are in the publication pipeline:
               <ul className="skills-list">
                 <li>
                   <a href="https://arxiv.org/abs/2308.12918v1">
@@ -225,9 +222,8 @@ const About = () => {
             <p>
               Lastly, I believe in giving back to the research community. I've had the honor of
               reviewing papers for esteemed conferences like
-              <a href="https://hipc.org/">HiPC 2023 </a>
-              and
-              <a href="https://aic2023.scrs.in/">AIC 2023 </a>, all while being mentored by{' '}
+              <a href="https://hipc.org/">HiPC 2023</a> and{' '}
+              <a href="https://aic2023.scrs.in/">AIC 2023 </a> , all while being mentored by{' '}
               <a href="https://www.linkedin.com/in/kalapriya-kannan-0862b55b/">
                 Dr. Kalapriya Kanan.{' '}
               </a>
