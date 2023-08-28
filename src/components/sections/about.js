@@ -128,15 +128,17 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I am a senior R&D Engineer at{' '}
-              <a href="https://www.hpe.com/us/en/home.html">Hewlett Packard Enterprise</a> in the{' '}
+              I currently hold the position of a Senior R&D Engineer at{' '}
+              <a href="https://www.hpe.com/us/en/home.html">Hewlett Packard Enterprise</a>, where I
+              play a pivotal role within the{' '}
               <a href="https://www.hpe.com/in/en/solutions/infosight.html">HPE Infosight</a> AIOps
               team.
             </p>
             <p>
-              My work involves being a Data Science researcher and an Machine Learning engineer. I
-              work with time-series data generated from servers and peripherals such as CPU, Power,
-              Memory, and I/O and actively research the following themes :
+              My primary responsibilities encompass both Data Science research and Machine Learning
+              engineering, with a specialized focus on analyzing time-series data sourced from
+              servers and peripherals like CPU, Power, Memory, and I/O. My research endeavors are
+              multifaceted. I delve into:
               <ul className="skills-list">
                 <li>
                   Forecasting of time series – For Reliable and Explainable Predictions (Univariate,
@@ -150,24 +152,40 @@ const About = () => {
               </ul>
             </p>
             <p>
-              Currently, I am working in collaboration with{' '}
+              I'm privileged to collaborate with{' '}
               <a href="https://www.hpe.com/us/en/hewlett-packard-labs.html">
                 Hewlett Packard Labs{' '}
               </a>{' '}
-              under the mentorship of{' '}
+              particularly under the mentorship of{' '}
               <a href="https://www.linkedin.com/in/suparna-bhattacharya-5a7798b/?originalSubdomain=in">
-                Dr Suparna Bhattacharya
+                Dr Suparna Bhattacharya.
               </a>{' '}
-              on creating data-centric algorithms for time-series datasets.
+              Our joint efforts are channeled towards the development of data-centric algorithms
+              tailored for time-series datasets.
             </p>
             <p>
-              I am also curating an extensive guide-style literature survey to increase the
-              Trustworthiness of Machine learning pipelines using data-centric methods.
+              Additionally, I'm in the midst of curating a comprehensive literature survey, which
+              aims to bolster the trustworthiness of Machine Learning pipelines using data-centric
+              methodologies.
+            </p>
+
+            <p>
+              My collaborations extend to esteemed professionals like{' '}
+              <a href="https://scholar.google.com/citations?user=P3OJaZQAAAAJ&hl=en">
+                Dr Tarun Kumar{' '}
+              </a>{' '}
+              and{' '}
+              <a href="https://patents.google.com/?inventor=Madhusoodhana+Chari+Sesha&num=100&oq=Madhusoodhana+Chari+Sesha+">
+                Madhusoodhana Chari Sesha.
+              </a>{' '}
+              Together, we're pioneering work on local model-agnostic explanations of time series,
+              custom KMeans for time-point clustering, and advanced pattern recognition systems in
+              time series.
             </p>
 
             <p>
               {' '}
-              I have eight <a href="/#projects">patent inventions</a>:
+              I'm proud to have conceptualized eight <a href="/#projects">patent inventions</a>:
               <ul className="skills-list">
                 <li>Unsupervised segmentation of time series using motifs and shapelets</li>
                 <li>Compression of a univariate time-series dataset using motifs</li>
@@ -186,9 +204,10 @@ const About = () => {
               </ul>
             </p>
             <p>
-              I actively <a href="/#mentorship">mentor</a> undergraduate college students and assist
-              them with their academic research. Under my guidance, we have completed two research
-              papers and are currently in the process of publishing them.
+              Beyond my research and inventions, I'm deeply committed to nurturing budding talent. I
+              actively <a href="/#mentorship">mentor</a> undergraduate students, guiding them
+              through their academic research journeys. Under my tutelage, we've successfully
+              completed two research papers, both of which are in the publication pipeline.
               <ul className="skills-list">
                 <li>
                   <a href="https://arxiv.org/abs/2308.12918v1">
@@ -201,6 +220,17 @@ const About = () => {
                   </a>
                 </li>
               </ul>
+            </p>
+
+            <p>
+              Lastly, I believe in giving back to the research community. I've had the honor of
+              reviewing papers for esteemed conferences like
+              <a href="https://hipc.org/">HiPC 2023 </a>
+              and
+              <a href="https://aic2023.scrs.in/">AIC 2023 </a>, all while being mentored by{' '}
+              <a href="https://www.linkedin.com/in/kalapriya-kannan-0862b55b/">
+                Dr. Kalapriya Kanan.{' '}
+              </a>
             </p>
 
             {/* <p> Hello! I am an experienced researcher and a software engineer with experience in Python, 
