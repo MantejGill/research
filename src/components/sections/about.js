@@ -221,7 +221,7 @@ const About = () => {
 
             <p>
               Lastly, I believe in giving back to the research community. I've had the honor of
-              reviewing papers for esteemed conferences like
+              reviewing papers for esteemed conferences like{' '}
               <a href="https://hipc.org/">HiPC 2023</a> and{' '}
               <a href="https://aic2023.scrs.in/">AIC 2023 </a> , all while being mentored by{' '}
               <a href="https://www.linkedin.com/in/kalapriya-kannan-0862b55b/">
