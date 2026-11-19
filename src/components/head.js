@@ -60,6 +60,23 @@ const Head = ({ title, description, image }) => {
       <meta name="twitter:image" content={seo.image} />
 
       <meta name="google-site-verification" content="DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk" />
+
+      <script type="application/ld+json">
+        {JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'Person',
+          name: defaultTitle,
+          url: siteUrl,
+          description: seo.description,
+          jobTitle: 'AI Researcher',
+          sameAs: [
+            'https://www.linkedin.com/in/mantej-gill/',
+            'https://github.com/MantejGill',
+            'https://medium.com/@mantej.gill',
+            'https://www.hackster.io/mantej-gill/',
+          ],
+        })}
+      </script>
     </Helmet>
   );
 };
