@@ -61,14 +61,13 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Mantej Singh Gill.</h2>;
-  const three = <h3 className="big-heading">I am an Artificial Intelligence researcher.</h3>;
+  const three = <h3 className="big-heading">I research and build trustworthy AI.</h3>;
   const four = (
     <>
       <p>
-        As an AI researcher, my area of expertise lies in time-series analysis. Currently, my main
-        focus is developing innovative data-centric algorithms that can improve the reliability of
-        machine-learning pipelines. Through my work, I strive to create cutting-edge solutions to
-        benefit society and positively impact the world.
+        I'm a Research Engineer at Carnegie Mellon's CLeaR group, working on causal ML and LLMs,
+        and co-founder of Shopthru.ai, helping brands sell to AI shoppers. Previously I built
+        agentic AI at Apple and spent six years at HPE R&D, with five patents filed from that work.
       </p>
     </>
   );

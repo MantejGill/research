@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Mantej Singh Gill',
     description:
-      'Mantej Singh Gill is an AI researcher whose area of expertise lies in time-series analysis. His primary focus is developing innovative data-centric algorithms that can improve the reliability of machine-learning pipelines. Through his work, he strives to create cutting-edge solutions to benefit society and positively impact the world.',
+      'Mantej Singh Gill is a Research Engineer at Carnegie Mellon\'s CLeaR group and co-founder of Shopthru.ai. His work spans causal ML, LLMs and trustworthy AI, with patents filed from six years at HPE R&D.',
     siteUrl: 'https://www.mantejgill.com', // No trailing slash allowed!
     image: '/demo.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '',

@@ -128,105 +128,23 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I currently hold the position of a Senior R&D Engineer at{' '}
-              <a href="https://www.hpe.com/us/en/home.html">Hewlett Packard Enterprise</a>, where I
-              play a pivotal role within the{' '}
-              <a href="https://www.hpe.com/in/en/solutions/infosight.html">HPE Infosight</a> AIOps
-              team.
+              Today I'm a Research Engineer at{' '}
+              <a href="https://www.cmu.edu/">Carnegie Mellon University</a>'s CLeaR Group (Causal ML
+              &amp; LLMs), finishing a research master's in Electrical &amp; Computer Engineering,
+              and co-founder of <a href="https://shopthru.ai">Shopthru.ai</a>, where we help brands
+              understand and improve how they appear in AI shopping conversations.
             </p>
             <p>
-              My primary responsibilities encompass both Data Science research and Machine Learning
-              engineering, with a specialized focus on analyzing time-series data sourced from
-              servers and peripherals like CPU, Power, Memory, and I/O. My research endeavors are
-              multifaceted. I delve into:
-              <ul className="skills-list">
-                <li>
-                  Forecasting of time series – For Reliable and Explainable Predictions (Univariate,
-                  Multivariate, Ensembles)
-                </li>
-                <li>
-                  Time-series Data and Model compression - For Cost-Effective Storage and increasing
-                  data privacy
-                </li>
-                <li>Time-series Segmentation - For increasing Interpretability and Transparency</li>
-              </ul>
+              At CMU I designed a Causal Education Platform adopted by 500+ students and researchers
+              and architected CMU's Causal Discovery Platform with a multi-agent assistance
+              framework. I also mentor graduate students as a TA for the Master's Data Science
+              Capstone.
             </p>
             <p>
-              I'm privileged to collaborate with{' '}
-              <a href="https://www.hpe.com/us/en/hewlett-packard-labs.html">
-                Hewlett Packard Labs{' '}
-              </a>{' '}
-              particularly under the mentorship of{' '}
-              <a href="https://www.linkedin.com/in/suparna-bhattacharya-5a7798b/?originalSubdomain=in">
-                Dr Suparna Bhattacharya.
-              </a>{' '}
-              Our joint efforts are channeled towards the development of data-centric algorithms
-              tailored for time-series datasets. Additionally, I'm in the midst of curating a
-              comprehensive literature survey, which aims to bolster the trustworthiness of Machine
-              Learning pipelines using data-centric methodologies.
-            </p>
-
-            <p>
-              My collaborations extend to esteemed professionals like{' '}
-              <a href="https://scholar.google.com/citations?user=P3OJaZQAAAAJ&hl=en">
-                Dr Tarun Kumar{' '}
-              </a>{' '}
-              and{' '}
-              <a href="https://patents.google.com/?inventor=Madhusoodhana+Chari+Sesha&num=100&oq=Madhusoodhana+Chari+Sesha+">
-                Madhusoodhana Chari Sesha.
-              </a>{' '}
-              Together, we're pioneering work on local model-agnostic explanations of time series,
-              custom KMeans for time-point clustering, and advanced pattern recognition systems in
-              time series.
-            </p>
-
-            <p>
-              {' '}
-              I'm proud to have conceptualized eight <a href="/#projects">patent inventions</a>:
-              <ul className="skills-list">
-                <li>Unsupervised segmentation of time series using motifs and shapelets</li>
-                <li>Compression of a univariate time-series dataset using motifs</li>
-                <li>A data centric approach towards server time series model compression</li>
-                <li>An improved forecasting algorithm for Power and CPU data of a server</li>
-                <li>
-                  Improved ensemble forecasting algorithm using time-series data sampled at multiple
-                  intervals
-                </li>
-                <li>
-                  Identifying hotspots and coldspots in forecasted power consumption data in an IT
-                  data center for workload scheduling
-                </li>
-                <li>An analytical method to improve the life of an SSD drive in a server</li>
-                <li>Server's maintenance time window prediction</li>
-              </ul>
-            </p>
-            <p>
-              Beyond my research and inventions, I'm deeply committed to nurturing budding talent. I
-              actively <a href="/#mentorship">mentor</a> undergraduate students, guiding them
-              through their academic research journeys. Under my tutelage, we've successfully
-              completed two research papers, both of which are in the publication pipeline:
-              <ul className="skills-list">
-                <li>
-                  <a href="https://arxiv.org/abs/2308.12918v1">
-                    Evaluating the Vulnerabilities in ML systems in terms of adversarial attacks
-                  </a>
-                </li>
-                <li>
-                  <a href="https://ssrn.com/abstract=4551038">
-                    Unsupervised learning approach for grouping trajectories
-                  </a>
-                </li>
-              </ul>
-            </p>
-
-            <p>
-              Lastly, I believe in giving back to the research community. I've had the honor of
-              reviewing papers for esteemed conferences like{' '}
-              <a href="https://hipc.org/">HiPC 2023</a> and{' '}
-              <a href="https://aic2023.scrs.in/">AIC 2023 </a> , all while being mentored by{' '}
-              <a href="https://www.linkedin.com/in/kalapriya-kannan-0862b55b/">
-                Dr. Kalapriya Kanan.{' '}
-              </a>
+              Previously I worked on agentic AI for silicon design at Apple, led ML teams at EXL,
+              and spent six years at Hewlett Packard Enterprise R&amp;D, where my research produced{' '}
+              <a href="/#projects">patent filings</a> in time-series forecasting, compression,
+              segmentation, workload scheduling, and explainability.
             </p>
 
             {/* <p> Hello! I am an experienced researcher and a software engineer with experience in Python, 

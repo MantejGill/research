@@ -3,8 +3,8 @@ date: '2021-05-14'
 title: 'Senior Machine Learning R&D Engineer'
 company: 'HPE R&D'
 location: 'Bangalore, India'
-year: 'Current'
-range: 'May 2021 - Present'
+year: '2024'
+range: 'Jan 2021 - Jun 2024'
 url: 'https://www.hpe.com/in/en/home.html'
 ---
 
